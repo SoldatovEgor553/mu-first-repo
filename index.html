@@ -38,17 +38,16 @@
 
   <section id="projects">
     <h2>Примеры звуков</h2>
-    <div class="projects-grid">
-    <article>
-      <h3>Природные звуки</h3>
-      <p>Пение птиц, шум дождя и ветер</p>
-    </article>
 
-     <article>
-            <h3>Городские звуки</h3>
-            <p>Машины и разговоры людей</p>
-        </article>
+    <div class="filters">
+      <button data-filter="all" class="active">Все</button>
+      <button data-filter="nature">Природные</button>
+      <button data-filter="urban">Городские</button>
     </div>
+
+    <input type="text" id="search-input" placeholder="Поиск звука...">
+    
+    <div class="projects-grid" id="projects-grid"></div>
   </section>
 
    <section id="contact">
